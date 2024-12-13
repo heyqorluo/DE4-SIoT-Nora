@@ -237,7 +237,7 @@ footer_html = """
     font-size: 14px;
     box-shadow: 0px -1px 5px rgba(0, 0, 0, 0.1);
 ">
-    <p style="margin: 0;">Developed by Nora Luo @2024 ❤ </p>
+    <p style="margin: 0;">Developed by Nora Luo © 2024 ❤ </p>
 </div>
 """
 st.markdown(footer_html, unsafe_allow_html=True)
