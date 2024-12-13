@@ -1,0 +1,10 @@
+streamlit
+influxdb-client-3
+certifi
+seaborn
+matplotlib.pyplot
+paho.mqtt.client
+paho
+plotly.express
+time
+numpy
