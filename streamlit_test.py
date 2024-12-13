@@ -228,9 +228,20 @@ with col6:
 #     st.write("No image available.")
 
 
-footer_html = """<div style='text-align: center;'>
-  <p>Developed by Nora Luo @2024 </p>
-</div>"""
+footer_html = """
+<div style="
+    bottom: 0;
+    width: 100%;
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 10px 0;
+    color: #333;
+    font-size: 14px;
+    box-shadow: 0px -1px 5px rgba(0, 0, 0, 0.1);
+">
+    <p style="margin: 0;">Developed by Nora Luo @2024 ❤ </p>
+</div>
+"""
 st.markdown(footer_html, unsafe_allow_html=True)
 
 # Custom CSS to change selectbox cursor
