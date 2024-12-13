@@ -9,7 +9,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 import paho.mqtt.client as paho
-from paho import mqtt
+import paho.mqtt.client as mqtt
 import plotly.express as px  # interactive charts
 import time  # to simulate a real time data, time loop
 from PIL import Image

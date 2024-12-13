@@ -1,10 +1,8 @@
 streamlit
-influxdb-client-3
+git+https://github.com/InfluxCommunity/influxdb3-python
 certifi
 seaborn
-matplotlib.pyplot
-paho.mqtt.client
-paho
+matplotlib
+paho-mqtt
 plotly.express
-time
 numpy
