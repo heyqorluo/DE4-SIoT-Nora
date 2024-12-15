@@ -107,9 +107,10 @@ time_range_options = [
     "Past 2 days",
     "Past 7 days",
     "Past 15 days",
+    "Past 30 days",
 ]
 
-default_time_range = "Past 2 days" # set default time range
+default_time_range = "Past 15 days" # set default time range
 selected_time_range = st.selectbox("Select time range", time_range_options, index=time_range_options.index(default_time_range))
 
 # --- Map time range to InfluxDB interval ---
@@ -122,6 +123,7 @@ time_range_mapping = {
     "Past 2 days": "2 days",
     "Past 7 days": "7 days",
     "Past 15 days": "15 days",
+    "Past 30 days": "30 days",
 }
 influx_interval = time_range_mapping[selected_time_range]
 
