@@ -176,7 +176,6 @@ with col3:
 
 with col4:
     fig4 = px.line(df, x="time", y="Nora/moisture", title="Soil Moisture")
-    fig4.update_layout(yaxis=dict(range=[30, 60]))  # Set initial y-axis range
     st.plotly_chart(fig4, use_container_width=True)
     
     
